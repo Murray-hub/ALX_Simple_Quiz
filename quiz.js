@@ -10,7 +10,7 @@ function checkAnswer(){
     feedback.style.color ="red";
  }
  let userAnswer = selectedOption.value;
- if(userAnswer === correctAnswer){
+ if (userAnswer === correctAnswer){
    feedback.textContent = "Correct! Well done"; 
    feedback.style.color = "green"
  }else{
